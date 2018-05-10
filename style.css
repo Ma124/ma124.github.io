@@ -1,0 +1,53 @@
+body, .invlnk:hover, input {
+  background-color: #282a36;
+  color: #f8f8f2;
+  font-family: 'Courier New', monospace;
+  font-size: 13pt; }
+
+a {
+  color: #f8f8f2;
+  text-decoration: none; }
+
+a:hover {
+  color: #d4d4b0;
+  text-decoration: none; }
+
+.xml .tag {
+  color: #f1fa8c; }
+.xml .string {
+  color: #f1fa8c; }
+
+.md .heading {
+  color: #8be9fd; }
+.md .list-item-bullet {
+  color: #f1fa8c; }
+
+.ascii-doc .lnk-txt {
+  color: #f1fa8c; }
+.ascii-doc .lnk-url {
+  color: #8be9fd; }
+
+.sh-cmd {
+  border-bottom: 0.5em; }
+
+.ragged-right {
+  float: right; }
+
+.cursor {
+  height: 0.33em;
+  width: 0.66em;
+  background-color: #f8f8f2;
+  animation-name: cursor-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+@keyframes cursor-animation {
+  50% {
+    visibility: hidden; }
+  0% {
+    visibility: visible; } }
+input {
+  border: none;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
